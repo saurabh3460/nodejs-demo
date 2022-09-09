@@ -1,0 +1,8 @@
+tasks:
+  test:
+    steps:
+    - checkout
+    - commands:
+      - |
+         npm install 
+         npm test
